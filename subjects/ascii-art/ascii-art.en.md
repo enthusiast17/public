@@ -2,10 +2,10 @@
 
 ### Objectives
 
-Ascii-art consists on receiving a `string` has an argument and outputting the `string` in a graphic representation of ASCII.
+Ascii-art consists on receiving a `string` as an argument and outputting the `string` in a graphic representation of ASCII.
 
 - This project should handle numbers, letters, spaces, special characters and `\n`.
-- Take a look on the ASCII manual.
+- Take a look at the ASCII manual.
 
 This project will help you learn about :
 
@@ -19,15 +19,15 @@ This project will help you learn about :
 ### Instructions
 
 - Your project must be written in **Go**.
-- The code must respect the [**good practices**](https://github.com/01-edu/public/blob/master/subjects/good-practices.en.md).
-- It is recommended that the code should present a **test file**.
+- The code must respect the [**good practices**](https://public.01-edu.org/subjects/good-practices.en).
+- It is recommended that the code present a **test file**.
 
-- It will be given some [**banner**](https://github.com/01-edu/public/blob/master/subjects/ascii-art/standard.txt) files with a specific graphical template representation of ASCII. The files are formatted in a way that it is not necessary to change them.
+- It will be given some [**banner**](https://github.com/01-edu/public/blob/master/subjects/ascii-art) files with a specific graphical template representation of ASCII. The files are formatted in a way that it is not necessary to change them.
 
 ### Banner Format
 
 - Each character has an height of 8 lines.
-- Characters are separate by a new line `\n`.
+- Characters are separated by a new line `\n`.
 - Here is an example of ' ', '!' and '"'(one dot represents one space) :
 
 ```console
@@ -61,6 +61,10 @@ This project will help you learn about :
 
 etc
 ```
+
+### Allowed packages
+
+- Only the [standard go](https://golang.org/pkg/) packages are allowed
 
 ### Usage
 
